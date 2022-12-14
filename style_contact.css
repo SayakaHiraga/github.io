@@ -1,0 +1,499 @@
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.topNavigation{
+  height: 50px;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+}
+
+nav{
+  /* width: 500%; */
+  height: 40px;
+  background-color: #fff;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+}
+a{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+  font-family: BIZ UDゴシック;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+b{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+  font-family: BIZ UDゴシック;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+a::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.bn632-hover {
+  width: 100px;
+  font-size: 8px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  /* margin: 5px; */
+  height: 25px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  /* moz-transition: all .4s ease-in-out; */
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.title{
+  background-color: #ffeded;
+  height: 300px;
+  text-align: center;
+  font-family: BIZ UDゴシック;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 11px;
+  position: relative;
+}
+
+.title_text {
+  margin-top: 85px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.title_text span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+}
+
+.content{
+  background-color: #fff;
+  height: 1000px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 700%;
+  font-family: BIZ UDゴシック;
+  position: relative;
+}
+
+
+.image-vw {
+  width : 25vw ; 
+}
+
+.content_1{
+  margin-top: 5%;
+  margin-left: 25%;
+  font-family: BIZ UDゴシック;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+.content span{
+  font-size: 9px;
+  font-family: BIZ UDゴシック;
+}
+
+/* .content_1 span{
+    font-size: 9px;
+} */
+
+.content_2{
+  margin-left: 55%;
+  font-family: BIZ UDゴシック;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+/* .content_2 span{
+    font-size: 9px;
+} */
+
+.more_link{
+  color: #ed6ea0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn27 {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+
+footer {
+  text-align: center;
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 0;
+}
+footer small {
+  font-size: 12px;
+}
+
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  background: #ed6ea0;
+  opacity: 0.6;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.topNavigation{
+  height: 50px;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+}
+
+nav{
+  /* width: 500%; */
+  height: 40px;
+  background-color: #fff;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+}
+li a{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+  font-family: BIZ UDゴシック;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+li b{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #333333;
+  font-family: BIZ UDゴシック;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+li a::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+li a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.bn632-hover {
+  width: 100px;
+  font-size: 8px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  /* margin: 5px; */
+  height: 25px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  /* moz-transition: all .4s ease-in-out; */
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+/* .bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+} */
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn27 {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.content{
+  /* flex: 1; */
+  cursor: default;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.image-vw {
+  width : 98vw ; 
+}
+
+.top-left {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  color: #fff;
+  font-family: BIZ UDゴシック;
+  font-weight: 600;
+  font-size: 40px;
+}
+@keyframes fadein-bottom {
+  0% {
+     opacity: 0;
+     transform: translateY(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.top-left_2 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  color: #fff;
+  font-family: BIZ UDゴシック;
+  font-weight: 600;
+  font-size: 40px;
+}
+@keyframes fadein-bottom {
+  0% {
+     opacity: 0;
+     transform: translateY(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.info{
+  cursor: default;
+  background-color: #fff;
+  text-align: center;
+  font-family: BIZ UDゴシック;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 0px;
+  position: relative;
+}
+
+.info span {
+  color: red;
+}
+
+.news{
+  background-color: #ffeded;
+  height: 300px;
+  text-align: center;
+  font-family: BIZ UDゴシック;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 11px;
+  position: relative;
+
+}
+
+.news span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  /* margin-top: 10px; */
+}
+
+.news_detail{
+  cursor: pointer;
+  height: 200px;
+  text-align: left;
+	display: inline-block;
+  font-family: BIZ UDゴシック;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+
+}
+
+.news_detail span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+span.border {
+  color:#ff6666;
+  border: solid 1px #ff6666;
+  width: 100%;
+  font-size: 12px;
+  }
+
+
+
+
+/* 
+
+.btn,
+a.btn {
+  padding:12px;
+  width: 150px;
+  border: 1px solid #ff6666 ;
+  color: #fff;
+  background-color: #ff6666 ;
+}
+
+.btn:hover,
+a.btn:hover {
+  padding:12px;
+  border: 1px solid #ff6666 ;
+  color: #ff6666 ;
+  background: #fff;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+   
+}
+
+.news a{
+  text-decoration: none;
+} */
+
+footer {
+  text-align: center;
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 0;
+}
+footer small {
+  font-size: 12px;
+}
+
+
+ 
+
